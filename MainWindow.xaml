@@ -75,6 +75,11 @@
         <TextBlock  Grid.Column="0" HorizontalAlignment="Center" Grid.Row="3" Text="?" TextWrapping="NoWrap"
                     VerticalAlignment="Center" FontSize="36" Height="48" Width="48" MouseDown="TextBlock_MouseDown_12"/>
 
+
+        <TextBlock x:Name="timeTextBlock" HorizontalAlignment="Center" Grid.Row="4" Text="Elapsed time" 
+                   TextWrapping="Wrap" VerticalAlignment="Center" FontSize="36" Grid.ColumnSpan="4"
+                    MouseDown="timeTextBlock_MouseDown"/>
+
     </Grid>
 
     <!--<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
